@@ -26,9 +26,28 @@ For running the source code on your local machine, the following dependencies ar
 - Matplotlib
 - Scikit-Learn
 
-> Python can be downloaded and installed from official python webiste [here](https://www.python.org/downloads/).  
+## Launch
+For local installation, follow these steps:
+1. Download source code from GitHub repository or [here](https://github.com/rishabh1323/House-Price-Prediction/archive/refs/heads/main.zip).
+2. Extract files to desired directory.
+3. [Download](https://www.python.org/downloads/) and install Python3 if not done already.
+4. Create a new python virtual environment.
+```
+python3 -m venv tutorial-env
+```
+5. Once you’ve created a virtual environment, you may activate it.  
 
-Other dependencies can be installed using `pip` using the following commands
+`On Windows, run:`
+```
+tutorial-env\Scripts\activate.bat
+```
+`On Unix or MacOS, run:`
+```
+source tutorial-env/bin/activate
+```
+> Refer to [python documentation](https://docs.python.org/3/tutorial/venv.html) for more information on virtual environments.  
+6. Install the required dependecies.
 ```
 pip install numpy pandas seaborn matplotlib scikit-learn
 ```
+7. Launch the Jupyter Notebooks or run the python files now.
